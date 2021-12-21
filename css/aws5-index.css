@@ -159,3 +159,16 @@ h3:hover {background:rgba(51,105,120);}
 .start p:hover {background:rgba(51,105,120);}
 
 
+@media(max-width: 700px){
+  .emt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Sign_up{
+    width: 90%;
+  }
+  .log_in_modal{
+    width: 90%
+  }
+}
