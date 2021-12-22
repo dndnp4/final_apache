@@ -116,11 +116,8 @@
                         pw: $pw.val(),
                         round: $round.val()
                     });
-                    // alert(res.data);
-                    console.log(res);
-                    // temp
-                    return;
-                    location.href = `/game?rnd=${$round.val()}`;
+                    
+                    location.href = `/game?rnd=${$round.val()}&token=${res.data.token}&id=${res.data.id}`;
                 } catch (e) {
                     alert(e.response.data);
                 }
