@@ -184,4 +184,10 @@ img:hover{
   .right{
     margin-right: -10%;
   }
+	  h1{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 20px;
+  }
  }
