@@ -171,4 +171,7 @@ h3:hover {background:rgba(51,105,120);}
   .log_in_modal{
     width: 90%
   }
+    h1{
+    font-size: 20px;
+  }
 }
