@@ -155,3 +155,24 @@ figcaption{
   background:rgb(197, 236, 247);
   color: black; transition: 1.25s; 
 }
+
+@media (max-width: 700px) {
+  span{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .btn_download{
+    width: 120px;
+  }
+  .btn_upload{
+    width: 120px;
+  }
+  .btn_replay{
+    width: 120px;
+  }
+  .btn_share{
+    width: 120px;
+  }
+}
