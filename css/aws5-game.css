@@ -81,6 +81,12 @@ figcaption{
   overflow: hidden;
 }
 
+.ratio-box :hover{
+  width: 50vw;
+  height: 50vw;
+  overflow: hidden;
+}
+
 img:hover{
   cursor: pointer;
 }
