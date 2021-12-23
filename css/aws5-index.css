@@ -176,7 +176,6 @@ h3:hover {background:rgba(51,105,120);}
   }
 }
 
-
 @media(max-width: 400px){
   .emt{
     margin-left: -10%;
@@ -184,20 +183,29 @@ h3:hover {background:rgba(51,105,120);}
   h1{
     margin-bottom: -20%;
   }
+  .Sign_up input[type="text"], .Sign_up input[type="password"] {width: 100px;}
+  .Sign_up input[type="text"]:focus, .Sign_up input[type="password"]:focus {width:150px;}
+  .log_id input[type="text"], .log_password input[type="password"] {width: 100px;}
+  .log_id input[type="text"]:focus, .log_password input[type="password"]:focus {width:150px;}
+
 }
 
 @media(max-width:350px){
   .emt div{
     margin: 0 40px;
-
   }
   h1{
     margin-bottom: 30%;
   }
 }
 
-@media(max-width:300px){
+@media(max-width:320px){
   .emt{
     display:table-cell;
     vertical-align:middle;
   }
+  .round p {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
