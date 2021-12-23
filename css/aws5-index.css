@@ -175,3 +175,29 @@ h3:hover {background:rgba(51,105,120);}
     font-size: 20px;
   }
 }
+
+
+@media(max-width: 400px){
+  .emt{
+    margin-left: -10%;
+  }
+  h1{
+    margin-bottom: -20%;
+  }
+}
+
+@media(max-width:350px){
+  .emt div{
+    margin: 0 40px;
+
+  }
+  h1{
+    margin-bottom: 30%;
+  }
+}
+
+@media(max-width:300px){
+  .emt{
+    display:table-cell;
+    vertical-align:middle;
+  }
